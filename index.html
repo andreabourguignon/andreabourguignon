@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Présentation</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href=index_style.css />
+	</head>
+	<body>
+		<h1>Andréa</h1>
+		<p><img src="andrea_photo.jpg" alt="image perso" /></p>
+		<h2>Age</h2>
+		<p>26 ans</p>
+		<h2>Langages</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+			<li>SQL</li>
+		</ul>
+		<pre><code>
+			var image = document.getElementById("image");
+			document.addEventListener("click", function(){
+			image.textContent += "!!";
+			});
+		</code></pre>
+		<script>
+	window.onload = function() {  // reload file every second
+		setInterval(function() { location.reload(); } , 1000);
+	};
+</script>
+	</body>
+</html>
