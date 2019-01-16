@@ -2,6 +2,8 @@ body{
 	max-width: 90%;
 	margin: auto;
 	background: url("background_image.jpg") no-repeat, linear-gradient(90deg, rgb(17, 135, 241), rgb(196, 73, 34));
+	background-position: bottom, right;
+	background-size: cover;
 }
 blockquote{
 	font-style:italic;
