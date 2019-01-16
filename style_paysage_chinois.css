@@ -24,3 +24,6 @@ blockquote *{
 	padding-top:80px;
 	padding-bottom:80px;
 }
+.bien, .mal{
+	font-style: italic;
+}
