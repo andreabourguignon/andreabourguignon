@@ -26,7 +26,20 @@ blockquote *{
 }
 .bien, .mal{
 	font-style:italic;
+	text-transform:uppercase;
 }
 p .fermier{
 	border-left:dotted 2px green;
+}
+p .villageois{
+	border-left:solid 2px red;
+}
+header h1{
+	background-color: yellow;
+}
+.rouge{
+	color: red;
+}
+.blue{
+	color: blue;
 }
