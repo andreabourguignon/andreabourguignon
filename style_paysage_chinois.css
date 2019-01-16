@@ -25,5 +25,8 @@ blockquote *{
 	padding-bottom:80px;
 }
 .bien, .mal{
-	font-style: italic;
+	font-style:italic;
+}
+p .fermier{
+	border-left:dotted 2px green;
 }
